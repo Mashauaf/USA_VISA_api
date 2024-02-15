@@ -1,0 +1,95 @@
+{
+  "visaTypes": [
+    {
+      "id": 1,
+      "type": "F-1 Visa",
+      "definition": "The F-1 student visa is a type of nonimmigrant visa for individuals who wish to study in the U.S. as a full-time student.",
+      "requirements": "Students need an F-1 visa if their course of study is more than 18 hours a week."
+    },
+    {
+      "id": 2,
+      "type": "M-1 Visa",
+      "definition": "The M-1 visa is a type of nonimmigrant visa in the United States that allows students to pursue vocational or nonacademic programs, including training in technical or mechanical fields.",
+      "requirements": "To be eligible for an M-1 visa, the student must be enrolled in an approved program, have sufficient funds to support themselves without working in the US, and have a residence abroad to which they intend to return."
+    },
+    {
+      "id": 3,
+      "type": "J- Visa",
+      "definition": "This type of study visa is for participation in USA exchange programs."
+    }
+  ],
+  "courseTypes": [
+    {
+      "id": 4,
+      "type": "For University/ College",
+      "visaRequired": "F-1 Visa"
+    },
+    {
+      "id": 5,
+      "type": "Language training institute",
+      "visaRequired": "M-1 Visa"
+    },
+    {
+      "id": 6,
+      "type": "Vocational and other non-academic training institutes except language training",
+      "visaRequired": "M-1 Visa"
+    }
+  ],
+  "applicationRequirements": [
+    {
+      "id": 7,
+      "requirement": "Non-immigrant visa application form (DS-160)"
+    },
+    {
+      "id": 8,
+      "requirement": "Passport with at least 6 months validity"
+    },
+    {
+      "id": 9,
+      "requirement": "One (5*5 cm) photograph"
+    },
+    {
+      "id": 10,
+      "requirement": "Fee receipt of paying non-refundable 160 US dollar visa application fee"
+    },
+    {
+      "id": 11,
+      "requirement": "An approved I-20 form issued by the US university"
+    },
+    {
+      "id": 12,
+      "requirement": "List of siblings"
+    }
+  ],
+  "applicationProcess": [
+    {
+      "id": 13,
+      "step": "Complete the non-immigrant visa electronic form (DS-160)"
+    },
+    {
+      "id": 14,
+      "step": "Pay the SEVIS fee of US$ 350"
+    },
+    {
+      "id": 15,
+      "step": "Pay visa application fee: Pay the application fee of US$160 in any Allied Bank"
+    },
+    {
+      "id": 16,
+      "step": "Schedule/ book an online appointment, need followings for appointment confirmation",
+      "requirements": [
+        "Your passport number",
+        "Receipt number from visa fee receipt",
+        "10 digit barcode (find it on the DS-160 form)"
+      ]
+    },
+    {
+      "id": 17,
+      "step": "Go for an interview to US embassy Islamabad on the given date and time"
+    }
+  ],
+  "additionalInformation": {
+    "id": 18,
+    "info": "If a student misses more than five months of class, they should apply for and be granted a new F-1 or M-1 student visa before they can resume their studies."
+  }
+}
